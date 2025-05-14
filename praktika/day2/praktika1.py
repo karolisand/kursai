@@ -1,5 +1,5 @@
 # Nuoroda: https://youtu.be/kqtD5dpn9C8?si=LM-uoUxN9aq-AP9j&t=2181
-#Destytojo galutinis veikiantis:
+# Destytojo galutinis veikiantis:
 weight = float(input("Weigh: "))
 measurement = input("(k)kg or (l)lb: ")
 
@@ -11,7 +11,6 @@ elif measurement.upper() == "L":
     print("weigh in KG: " + str(converted))
 else:
     print("you need to choose l or k")
-
 
 
 # Mano galutinis veikiantis:
@@ -28,15 +27,13 @@ else:
 #     print("you need to choose l or k")
 
 
-
-
 # Pirmas dublis:
 # if measurement == str("l"):
 #     print("skaicius")
 # elif measurement == str("k"):
 #     print("bbz")
 
-print ("")
-print ("Done")
+print("")
+print("Done")
 
-#int(); float(); bool(); str()
+# int() -> 100; float() -> 4.99; bool() -> True/False; str() -> Text
